@@ -1,4 +1,5 @@
 # Phaser 3 + TypeScript + Vite.js Template
+
 > Make Phaser 3 games with TypeScript and modern frontend tooling.
 
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -95,20 +96,3 @@ This template uses a basic `typescript-eslint` set up for code linting.
 It does not aim to be opinionated.
 
 [See here for rules to turn on or off](https://eslint.org/docs/rules/).
-
-## Dev Server Port
-
-You can change the dev server's port number by modifying the `vite.config.ts` file. Look for the `server` section:
-
-```js
-{
-	// ...
-	server: { host: '0.0.0.0', port: 8000 },
-}
-```
-
-Change 8000 to whatever you want.
-
-## License
-
-[MIT License](https://github.com/ourcade/phaser3-vite-template/blob/master/LICENSE)
