@@ -1,0 +1,120 @@
+{
+    "anims": [
+        {
+            "key": "shot-bullet",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "tanks",
+                    "frame": "tank_1"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank_2"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank_1"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank_0"
+                }
+            ]
+        },
+        {
+            "key": "shot-minigun",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "tanks",
+                    "frame": "tank-minigun_1"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-minigun_2"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-minigun_0"
+                }
+            ]
+        },
+        {
+            "key": "shot-shutgun",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "tanks",
+                    "frame": "tank-shutgun_1"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-shutgun_2"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-shutgun_1"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-shutgun_0"
+                }
+            ]
+        },
+        {
+            "key": "shot-heavy",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 20,
+            "frames": [
+                {
+                    "key": "tanks",
+                    "frame": "tank-heavy_3"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-heavy_2"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-heavy_1"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-heavy_0"
+                }
+            ]
+        },
+        {
+            "key": "shot-laser-mega",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "tanks",
+                    "frame": "tank-laser-mega_0"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-laser-mega_1"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-laser-mega_2"
+                },
+                {
+                    "key": "tanks",
+                    "frame": "tank-laser-mega_3"
+                }
+            ]
+        }
+    ]
+}

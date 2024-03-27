@@ -1,0 +1,281 @@
+{
+    "frames": [
+        {
+            "filename": "tank-laser-mega_0",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-laser-mega_1",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 0,
+                "y": 64
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-heavy_0",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 107,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-heavy_1",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 107,
+                "y": 64
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-laser-mega_2",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 0,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-heavy_2",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 107,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-laser-mega_3",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 0,
+                "y": 192
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-heavy_3",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 107,
+                "y": 192
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank_0",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 214,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank_1",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 214,
+                "y": 64
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank_2",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 214,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-void",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 214,
+                "y": 192
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-shutgun_0",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 321,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-shutgun_1",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 321,
+                "y": 64
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-shutgun_2",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 321,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-void1",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 321,
+                "y": 192
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-minigun_0",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 428,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-minigun_1",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 428,
+                "y": 64
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-minigun_2",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 428,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-void2",
+            "frame": {
+                "w": 107,
+                "h": 64,
+                "x": 428,
+                "y": 192
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tank-mine",
+            "frame": {
+                "w": 84,
+                "h": 64,
+                "x": 535,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

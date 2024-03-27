@@ -1,0 +1,125 @@
+{
+    "frames": [
+        {
+            "filename": "powerup-heavy",
+            "frame": {
+                "w": 20,
+                "h": 20,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "powerup-laser-mega",
+            "frame": {
+                "w": 20,
+                "h": 20,
+                "x": 20,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "powerup-laser",
+            "frame": {
+                "w": 20,
+                "h": 20,
+                "x": 40,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "powerup-mine",
+            "frame": {
+                "w": 20,
+                "h": 20,
+                "x": 60,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "powerup-minigun",
+            "frame": {
+                "w": 20,
+                "h": 20,
+                "x": 80,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "powerup-missile-ctrl",
+            "frame": {
+                "w": 20,
+                "h": 20,
+                "x": 100,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "powerup-missile",
+            "frame": {
+                "w": 20,
+                "h": 20,
+                "x": 120,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "powerup-shutgun",
+            "frame": {
+                "w": 20,
+                "h": 20,
+                "x": 140,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "powerup-wall-destroy",
+            "frame": {
+                "w": 20,
+                "h": 20,
+                "x": 160,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

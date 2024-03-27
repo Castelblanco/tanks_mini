@@ -1,0 +1,32 @@
+{
+    "anims": [
+        {
+            "key": "remove",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 9,
+            "frames": [
+                {
+                    "key": "bullets",
+                    "frame": "bullets_0"
+                },
+                {
+                    "key": "bullets",
+                    "frame": "bullets_1"
+                },
+                {
+                    "key": "bullets",
+                    "frame": "bullets_2"
+                },
+                {
+                    "key": "bullets",
+                    "frame": "bullets_3"
+                },
+                {
+                    "key": "bullets",
+                    "frame": "bullets_4"
+                }
+            ]
+        }
+    ]
+}
