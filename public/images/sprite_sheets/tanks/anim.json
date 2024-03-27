@@ -72,7 +72,7 @@
             "key": "shot-heavy",
             "type": "frames",
             "repeat": 0,
-            "frameRate": 20,
+            "frameRate": 30,
             "frames": [
                 {
                     "key": "tanks",

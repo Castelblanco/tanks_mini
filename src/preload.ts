@@ -14,6 +14,7 @@ export class Preload extends Scene {
         // Load Spritesheet
         this.importSpriteSheet('tanks', true);
         this.importSpriteSheet('bullets', true);
+        this.importSpriteSheet('tanks-missile-laser');
         this.importSpriteSheet('power-ups');
 
         // this.load.on('progress', (p: number) => {

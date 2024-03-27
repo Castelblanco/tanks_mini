@@ -19,7 +19,8 @@
         "paths": {
             "@game_objects/*": ["game_objects/*"],
             "@helpers/*": ["helpers/*"],
-            "@scenes/*": ["scenes/*"]
+            "@scenes/*": ["scenes/*"],
+            "@common/*": ["common/*"]
         }
     },
     "include": ["src"]

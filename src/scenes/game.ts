@@ -1,7 +1,6 @@
-import { GameObjects, Scene, Types, Math as PhaserMath, Input, Geom } from 'phaser';
+import { GameObjects, Scene, Types, Math as PhaserMath, Input } from 'phaser';
 import { Bullet, Tank } from '../game_objects/index';
-
-import { collideWorldBounds } from '@helpers/index';
+import { POWERUPS } from '@common/enums/index';
 
 const COLOR_RED = 0xff0000;
 const COLOR_BLUE = 0x0000ff;
@@ -38,6 +37,12 @@ export class GameScene extends Scene {
             isStatic: true,
         });
 
+        const powerup = this.matter.add
+            .sprite(400, 400, 'power-ups', POWERUPS.HEAVY, {
+                isStatic: true,
+            })
+            .setScale(1.5);
+
         this.cursor1 = this.input.keyboard?.addKeys({
             up: Input.Keyboard.KeyCodes.W,
             down: Input.Keyboard.KeyCodes.S,
@@ -45,37 +50,16 @@ export class GameScene extends Scene {
             right: Input.Keyboard.KeyCodes.D,
             space: Input.Keyboard.KeyCodes.SPACE,
         }) as Types.Input.Keyboard.CursorKeys;
-        this.tank = new Tank(this, 100, 100, COLOR_BLUE, this.cursor1, this.wall);
+        this.tank = new Tank(this, 100, 100, COLOR_BLUE, this.cursor1);
+
+        this.tank.setOnCollideWith(powerup, () => {
+            this.tank.changeShot(POWERUPS.HEAVY);
+            powerup.destroy();
+        });
     };
 
     update(_: number, delta: number): void {
-        this.tank.moveTank(delta);
-        this.shot();
-
-        // this.moveTank(delta);
+        this.tank.move(delta);
+        this.tank.shot();
     }
-
-    // moveTank = (delta: number) => {
-    //     const { right, left, up, down } = this.cursor1;
-    //     const { rotation } = this.tankBase;
-
-    //     if (right.isDown) this.tankBase.rotation += this.rotationTank * delta;
-    //     if (left.isDown) this.tankBase.rotation -= this.rotationTank * delta;
-
-    //     if (up.isDown) {
-    //         this.tankBase.y -= Math.cos(rotation) * this.velocityTank * delta;
-    //         this.tankBase.x += Math.sin(rotation) * this.velocityTank * delta;
-    //     }
-
-    //     if (down.isDown) {
-    //         this.tankBase.y += Math.cos(rotation) * this.velocityTank * delta;
-    //         this.tankBase.x -= Math.sin(rotation) * this.velocityTank * delta;
-    //     }
-    // };
-
-    shot = () => {
-        if (this.cursor1.space.isDown) {
-            this.tank.anims.play('shot-bullet');
-        }
-    };
 }
